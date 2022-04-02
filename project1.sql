@@ -1,3 +1,5 @@
+--source file : https://www.kaggle.com/datasets/hendratno/covid19-indonesia?resource=download
+
 select *
 from Project_DataAnalyst..covid_19_indonesia
 order by 3,1
@@ -59,3 +61,6 @@ from Project_DataAnalyst..covid_19_indonesia
 where Location <> 'Indonesia'
 group by Province
 order by 1
+
+-- Beberapa hasil dari data ini akan diolah ke tableau
+-- hasil dari tableau dapat dilihat di link berikut : https://public.tableau.com/app/profile/fernando.septian.siahaan/viz/CovidIndonesia_16488264034270/Dashboard1
